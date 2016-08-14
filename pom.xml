@@ -54,8 +54,8 @@
 
         <dependency>
             <groupId>microutils</groupId>
-            <artifactId>kotlin.logging</artifactId>
-            <version>1.2.1</version>
+            <artifactId>kotlin-logging</artifactId>
+            <version>1.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
