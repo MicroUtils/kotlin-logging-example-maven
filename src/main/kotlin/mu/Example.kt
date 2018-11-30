@@ -1,12 +1,13 @@
 package mu
 
 
-fun main(args : Array<String>) {
+fun main() {
     Example().bar()
 }
 
+private val logger = KotlinLogging.logger {}
+
 class Example {
-    companion object: KLogging()
     fun bar() {
         val world = "world"
         logger.info { "hello $world" }
