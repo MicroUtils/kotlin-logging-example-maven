@@ -1,6 +1,6 @@
 package mu
 
-
+import io.github.oshai.kotlinlogging.KotlinLogging
 fun main() {
     Example().bar()
 }
